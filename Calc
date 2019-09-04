@@ -1,0 +1,5 @@
+bas = int (input("Write base:"))
+exponent = int (input("Write exponent:"))
+potens = 1 
+for x in range (0, exponent) : potens = potens * bas
+print ("The answer is:", potens)
